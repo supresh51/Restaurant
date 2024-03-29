@@ -1,0 +1,862 @@
+@media (min-width:1024px) and (max-width:1560px) {
+
+    /* Row 1 */
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-brand img {
+        margin-left: 250px;
+        width: 120px;
+        height: 40px;
+    }
+
+    .navbar-nav {
+        padding-left: 120px;
+        font-size: large;
+    }
+
+    .nav-item {
+        margin-left: 40px;
+
+    }
+
+    .nav-link {
+        color: #000;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+
+
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 3;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .nav-link.active::before {
+        width: 100%;
+    }
+
+    nav-link active {
+        color: #EEB221;
+    }
+
+    .nav-link.active::before {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active) {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active)::before {
+        width: 100%;
+    }
+
+    .nav-link:hover {
+        color: #EEB221;
+    }
+
+    .nav-link:hover::before {
+        width: 100%;
+
+    }
+
+    .dropdown-menu {
+        padding-top: 10px;
+    }
+
+    .dropdown-item {
+        padding-top: 10px;
+        color: black;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .dropdown-item::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 18;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .dropdown-item:hover {
+        color: #EEB221;
+    }
+
+    .dropdown-item:hover::before {
+        width: 80%;
+
+    }
+
+    /* Row 2 */
+
+    #Row2 {
+        background-color: #10173D;
+    }
+
+    #Row2r1 {
+        background-color: #10173D;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #Row2r1 h1 {
+        color: white;
+        font-size: 60px;
+    }
+
+    .first-sentence1 {
+        font-size: 35px;
+        color: #EEB221;
+    }
+
+    .second-sentence1 {
+        font-size: 30px;
+        color: white;
+        padding-left: 10px;
+    }
+
+    #Row2r2 {
+        padding-top: 30px;
+        height: 100%;
+        background-color: #10173D;
+        padding-bottom: 50px;
+    }
+
+    #card1 {
+        width: 300px;
+        height: 350px;
+        margin-left: 80px;
+        margin-bottom: 30px;
+        border: 2px solid #10173D;
+        background-color: #10173D;
+    }
+
+    .card-img-top {
+        background-color: #10173D;
+        border-radius: 25px;
+        border-color: #10173D;
+    }
+
+    #card1 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card1:hover img {
+        transform: translateY(-10px);
+    }
+
+    #card2 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card2:hover img {
+        transform: translateY(-10px);
+    }
+
+    #card3 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card3:hover img {
+        transform: translateY(-10px);
+    }
+
+    #card4 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card4:hover img {
+        transform: translateY(-10px);
+    }
+
+    .card-body {
+        background-color: #10173D;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .card-body h5 {
+        font-size: large;
+        color: white;
+    }
+
+    #card2 {
+        margin-bottom: 30px;
+        width: 300px;
+        height: 350px;
+        margin-left: 60px;
+        background-color: #10173D;
+        border: 2px solid #10173D;
+    }
+
+    #card3 {
+        margin-bottom: 30px;
+        width: 300px;
+        height: 350px;
+        margin-left: 30px;
+        background-color: #10173D;
+        border: 2px solid #10173D;
+    }
+
+    #card4 {
+        margin-bottom: 30px;
+        width: 300px;
+        height: 350px;
+        background-color: #10173D;
+        border: 2px solid #10173D;
+    }
+
+    /* ROw 3 */
+
+    #Row3{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #f1f1f1;
+    }
+
+    #Row3 h1{
+        text-align: center;
+        font-size: 60px;
+        padding-bottom: 30px;
+    }
+
+    .accordion-item{
+        border-color: #f1f1f1;
+    }
+    .accordion{
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+
+    .accordion-button{
+        background-color: #f1f1f1;
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid #f1f1f1;
+        border-bottom: 2px solid #E1E1E1;
+    }
+
+    .accordion-button:hover{
+        border-color: #f1f1f1;
+        background-color: #f1f1f1;
+       
+    }
+
+    .accordion-body{
+        
+        background-color: #f1f1f1;
+    }
+
+    /* Row 4 */
+    #footer {
+        text-align: center;
+        padding-top: 50px;
+      }
+    
+      #footer img {
+        width: 180px;
+        height: 80px;
+        padding-bottom: 10px;
+      }
+
+
+
+
+}
+
+@media (min-width:430px) and (max-width:769px) {
+
+    /* Row 1 */
+    #header {
+        background-color: white;
+    }
+
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-brand img {
+        margin-left: 80px;
+        width: 120px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-nav {
+        padding-left: 120px;
+        font-size: large;
+    }
+
+    .nav-item {
+        margin-left: 500px;
+
+    }
+
+    .nav-link {
+        color: #000;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 3;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .nav-link.active::before {
+        width: 100%;
+    }
+
+    .nav-link.active {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active) {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active)::before {
+        width: 100%;
+    }
+
+    .nav-link:hover {
+        color: #EEB221;
+    }
+
+    .nav-link:hover::before {
+        width: 100%;
+
+    }
+
+    .dropdown-menu {
+        padding-top: 10px;
+    }
+
+    .dropdown-item {
+        padding-top: 10px;
+        color: black;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .dropdown-item::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 18;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .dropdown-item:hover {
+        color: #EEB221;
+    }
+
+    .dropdown-item:hover::before {
+        width: 80%;
+
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        margin-right: 100px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    /* Row 2 */
+    #Row2{
+        background-color: #10173D;
+    }
+    #Row2r1 {
+        background-color: #10173D;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #Row2r1 h1 {
+        color: white;
+        font-size: 50px;
+    }
+
+    .first-sentence1 {
+        font-size: 30px;
+        color: #EEB221;
+    }
+
+    .second-sentence1 {
+        font-size: 25px;
+        color: white;
+        padding-left: 10px;
+    }
+
+    #Row2r2 {
+        padding-top: 30px;
+        height: 100%;
+        background-color: #10173D;
+        padding-bottom: 50px;
+    }
+
+    #card1 {
+        margin-top: 30px;
+        width: 300px;
+        height: 350px;
+        margin-left: 80px;
+        border: 2px solid #10173D;
+        background-color: #10173D;
+    }
+
+    .card-img-top {
+        background-color: #10173D;
+        border-radius: 25px;
+        border-color: #10173D;
+    }
+
+    #card1 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card1:hover img {
+        transform: translateY(-10px);
+    }
+
+    #card2 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card2:hover img {
+        transform: translateY(-10px);
+    }
+
+    #card3 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card3:hover img {
+        transform: translateY(-10px);
+    }
+
+    #card4 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card4:hover img {
+        transform: translateY(-10px);
+    }
+
+    .card-body {
+        background-color: #10173D;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .card-body h5 {
+        font-size: large;
+        color: white;
+    }
+
+    #card2 {
+        margin-top: 30px;
+        width: 300px;
+        height: 350px;
+        margin-left: 60px;
+        background-color: #10173D;
+        border: 2px solid #10173D;
+    }
+
+    #card3 {
+        margin-top: 30px;
+        width: 300px;
+        height: 350px;
+        margin-left: 80px;
+        background-color: #10173D;
+        border: 2px solid #10173D;
+    }
+
+    #card4 {
+        margin-top: 30px;
+        width: 300px;
+        height: 350px;
+        margin-left: 60px;
+        background-color: #10173D;
+        border: 2px solid #10173D;
+    }
+
+    /* ROw 3 */
+
+    #Row3{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #f1f1f1;
+    }
+
+    #Row3 h1{
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+
+    .accordion-item{
+        border-color: #f1f1f1;
+    }
+    .accordion{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .accordion-button{
+        background-color: #f1f1f1;
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid #f1f1f1;
+        border-bottom: 2px solid #E1E1E1;
+    }
+
+    .accordion-button:hover{
+        border-color: #f1f1f1;
+        background-color: #f1f1f1;
+       
+    }
+
+    .accordion-body{
+        
+        background-color: #f1f1f1;
+    }
+
+    /* Row 4 */
+    #footer {
+        text-align: center;
+        padding-top: 50px;
+      }
+    
+      #footer img {
+        width: 180px;
+        height: 80px;
+        padding-bottom: 10px;
+      }
+
+}
+
+@media(min-width:320px) and (max-width:426px) {
+
+    /* Row 1 */
+    #header {
+        background-color: white;
+    }
+
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-brand img {
+        margin-left: 150px;
+        width: 120px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-nav {
+        font-size: large;
+    }
+
+    .nav-item {
+        margin-left: 20px;
+
+    }
+
+    .nav-link {
+        color: #000;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 3;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .nav-link.active::before {
+        width: 100%;
+    }
+
+    .nav-link.active {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active) {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active)::before {
+        width: 100%;
+    }
+
+    .nav-link:hover {
+        color: #EEB221;
+    }
+
+    .nav-link:hover::before {
+        width: 100%;
+
+    }
+
+    .dropdown-menu {
+        padding-top: 10px;
+    }
+
+    .dropdown-item {
+        padding-top: 10px;
+        color: black;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .dropdown-item::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 18;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .dropdown-item:hover {
+        color: #EEB221;
+    }
+
+    .dropdown-item:hover::before {
+        width: 80%;
+
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        margin-right: 100px;
+        margin-top: -50px;
+        margin-left: 20px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    /* Row 2 */
+    #Row2{
+        background-color: #10173D;
+    }
+    #Row2r1 {
+        background-color: #10173D;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #Row2r1 h1 {
+        color: white;
+        font-size: 40px;
+    }
+
+    .first-sentence1 {
+        font-size: 30px;
+        color: #EEB221;
+        margin-left: 100px;
+        margin-right: 60px;
+    }
+
+    .second-sentence1 {
+        font-size: 25px;
+        color: white;
+        padding-left: 10px;
+    }
+
+    #Row2r2 {
+        padding-top: 30px;
+        height: 100%;
+        background-color: #10173D;
+        padding-bottom: 50px;
+    }
+
+    #card1 {
+        margin-top: 30px;
+        width: 300px;
+        height: 350px;
+        margin-left: 50px;
+        border: 2px solid #10173D;
+        background-color: #10173D;
+    }
+
+    .card-img-top {
+        background-color: #10173D;
+        border-radius: 25px;
+        border-color: #10173D;
+    }
+
+    #card1 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card1:hover img {
+        transform: translateY(-10px);
+    }
+
+    #card2 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card2:hover img {
+        transform: translateY(-10px);
+    }
+
+    #card3 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card3:hover img {
+        transform: translateY(-10px);
+    }
+
+    #card4 img {
+        transition: transform 0.3s ease;
+    }
+
+    #card4:hover img {
+        transform: translateY(-10px);
+    }
+
+    .card-body {
+        background-color: #10173D;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .card-body h5 {
+        font-size: large;
+        color: white;
+    }
+
+    #card2 {
+        margin-top: 30px;
+        width: 300px;
+        height: 350px;
+        margin-left: 50px;
+        background-color: #10173D;
+        border: 2px solid #10173D;
+    }
+
+    #card3 {
+        margin-top: 30px;
+        width: 300px;
+        height: 350px;
+        margin-left: 50px;
+        background-color: #10173D;
+        border: 2px solid #10173D;
+    }
+
+    #card4 {
+        margin-top: 30px;
+        width: 300px;
+        height: 350px;
+        margin-left: 50px;
+        background-color: #10173D;
+        border: 2px solid #10173D;
+    }
+
+    /* ROw 3 */
+
+    #Row3{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #f1f1f1;
+    }
+
+    #Row3 h1{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .accordion-item{
+        border-color: #f1f1f1;
+    }
+    .accordion{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .accordion-button{
+        background-color: #f1f1f1;
+        font-size: 16px;
+        font-weight: bold;
+        border: 2px solid #f1f1f1;
+        border-bottom: 2px solid #E1E1E1;
+    }
+
+    .accordion-button:hover{
+        border-color: #f1f1f1;
+        background-color: #f1f1f1;
+       
+    }
+
+    .accordion-body{
+        
+        background-color: #f1f1f1;
+    }
+
+    /* Row 4 */
+    #footer {
+        text-align: center;
+        padding-top: 50px;
+      }
+    
+      #footer img {
+        width: 180px;
+        height: 80px;
+        padding-bottom: 10px;
+      }
+
+}

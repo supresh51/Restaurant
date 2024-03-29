@@ -1,0 +1,832 @@
+@media (min-width:1024px) and (max-width:1560px) {
+
+    /* Row 1 */
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-brand img {
+        margin-left: 250px;
+        width: 120px;
+        height: 40px;
+    }
+
+    .navbar-nav {
+        padding-left: 120px;
+        font-size: large;
+    }
+
+    .nav-item {
+        margin-left: 40px;
+
+    }
+
+    .nav-link {
+        color: #000;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+
+
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 3;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .nav-link.active::before {
+        width: 100%;
+    }
+
+    nav-link active {
+        color: #EEB221;
+    }
+
+    .nav-link.active::before {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active) {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active)::before {
+        width: 100%;
+    }
+
+    .nav-link:hover {
+        color: #EEB221;
+    }
+
+    .nav-link:hover::before {
+        width: 100%;
+
+    }
+
+    .dropdown-menu {
+        padding-top: 10px;
+    }
+
+    .dropdown-item {
+        padding-top: 10px;
+        color: black;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .dropdown-item::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 18;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .dropdown-item:hover {
+        color: #EEB221;
+    }
+
+    .dropdown-item:hover::before {
+        width: 80%;
+
+    }
+
+    /* Row 2 */
+    #Row2 {
+        margin-top: 70px;
+    }
+
+    #Row2C1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(assets/Cutomization1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #Row2C2 {
+        background-color: #F0F0F0;
+        color: black;
+        padding-top: 200px;
+        padding-left: 100px;
+        padding-right: 80px;
+        padding-bottom: 200px;
+    }
+
+    #Row2C2 h1 {
+        font-size: 50px;
+        font-weight: bold;
+
+    }
+
+    #Row2C2 p {
+        padding-top: 25px;
+        font-size: 20px;
+
+    }
+
+    #btn {
+        margin-top: 30px;
+        background-color: #EEB221;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: large;
+        width: 250px;
+        height: 55px;
+    }
+
+    #btn:hover {
+        border: 2px solid #EEB221;
+        background-color: #F0F0F0;
+
+    }
+
+    /* Row3 */
+    #Row3 {
+        padding-top: 100px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #Row3 img {
+        width: 400px;
+        height: 100px;
+    }
+
+    #Row3 h1 {
+        color: #000;
+        font-size: 45px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    #Row3 p{
+        font-size:large;
+        padding-top: 10px;
+    }
+
+    #star {
+        font-size: 30px;
+        color: #EEB221;
+    }
+
+    #ckeckicon{
+        font-size: large;
+    }
+
+    #ckeckicon i{
+        font-size: 20px;
+        color: #EEB221;
+        font-weight: bold;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+     /* Row 4 */
+     #Row4 {
+        background-color: #10173D;
+
+    }
+
+    #Row4C1 {
+        padding-top: 300px;
+        padding-left: 80px;
+        padding-right: 120px;
+        padding-bottom: 180px;
+    }
+
+    #Row4C1 h1 {
+        font-size: 45px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        color: white;
+    }
+
+    #Row4C1 p {
+        font-size: large;
+        color: white;
+    }
+
+    #btn2 {
+        color: #000;
+        margin-top: 30px;
+        background-color: #EEB221;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: large;
+        width: 250px;
+        height: 55px;
+    }
+
+    #btn2:hover {
+        border: 2px solid #EEB221;
+        background-color: #10173D;
+        color: #EEB221;
+
+    }
+
+    #Row4C2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(assets/Cutomization3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #rightlogo i {
+        padding-bottom: 20px;
+        font-size: 25px;;
+        width: 30px;
+        color: #EEB221;
+    }
+
+    #rightlogo {
+        font-size: large;
+        color: #000;
+    }
+
+    #footer {
+        text-align: center;
+        padding-top: 50px;
+      }
+    
+      #footer img {
+        width: 180px;
+        height: 80px;
+        padding-bottom: 10px;
+      }
+
+
+}
+
+@media (min-width:430px) and (max-width:769px) {
+
+    /* Row 1 */
+    #header {
+        background-color: white;
+    }
+
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-brand img {
+        margin-left: 80px;
+        width: 120px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-nav {
+        padding-left: 120px;
+        font-size: large;
+    }
+
+    .nav-item {
+        margin-left: 500px;
+
+    }
+
+    .nav-link {
+        color: #000;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 3;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .nav-link.active::before {
+        width: 100%;
+    }
+
+    .nav-link.active {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active) {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active)::before {
+        width: 100%;
+    }
+
+    .nav-link:hover {
+        color: #EEB221;
+    }
+
+    .nav-link:hover::before {
+        width: 100%;
+
+    }
+
+    .dropdown-menu {
+        padding-top: 10px;
+    }
+
+    .dropdown-item {
+        padding-top: 10px;
+        color: black;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .dropdown-item::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 18;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .dropdown-item:hover {
+        color: #EEB221;
+    }
+
+    .dropdown-item:hover::before {
+        width: 80%;
+
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        margin-right: 100px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    /* Row 2 */
+    #Row2 {
+        margin-top: 70px;
+    }
+
+    #Row2C1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(assets/Cutomization1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #Row2C2 {
+        background-color: #F0F0F0;
+        color: black;
+        padding-top: 200px;
+        padding-left: 30px;
+        padding-right: 40px;
+        padding-bottom: 140px;
+    }
+
+    #Row2C2 h1 {
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+    #Row2C2 p {
+        padding-top: 15px;
+        font-size: 16px;
+
+    }
+
+    #btn {
+        margin-top: 30px;
+        background-color: #EEB221;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: large;
+        width: 250px;
+        height: 55px;
+    }
+
+    #btn:hover {
+        border: 2px solid #EEB221;
+        background-color: #F0F0F0;
+
+    }
+
+    /* Row3 */
+    #Row3 {
+        padding-top: 100px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #Row3 img {
+        width: 300px;
+        height: 80px;
+    }
+
+    #Row3 h1 {
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    #Row3 p{
+        font: size 25px;
+    }
+
+    #star i{
+        font-size: 25px;
+        color: #EEB221;
+    }
+
+    #star{
+        font-size: 35px;
+    }
+
+    #ckeckicon{
+        font-size: large;
+    }
+
+    #ckeckicon i{
+        font-size: 20px;
+        color: #EEB221;
+        font-weight: bold;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+     /* Row 4 */
+     #Row4 {
+        background-color: #10173D;
+
+    }
+
+    #Row4C1 {
+        padding-top: 113px;
+        padding-left: 30px;
+        padding-bottom: 62px;
+    }
+
+    #Row4C1 h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        color: white;
+    }
+
+    #Row4C1 p {
+        font-size: large;
+        color: white;
+    }
+
+    #btn2 {
+        margin-top: 30px;
+        background-color: #EEB221;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: large;
+        width: 250px;
+        height: 55px;
+    }
+
+    #btn2:hover {
+        border: 2px solid #EEB221;
+        background-color: #10173D;
+        color: #EEB221;
+
+    }
+
+    #Row4C2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(assets/Cutomization3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #rightlogo i {
+        padding-bottom: 10px;
+        font-size: 20px;;
+        width: 30px;
+        color: #EEB221;
+    }
+
+    #rightlogo p{
+        text-align: start;
+        font-size: large;
+        color: white;
+    }
+
+    #footer {
+        text-align: center;
+        padding-top: 50px;
+      }
+    
+      #footer img {
+        width: 180px;
+        height: 80px;
+        padding-bottom: 10px;
+      }
+}
+
+@media(min-width:320px) and (max-width:426px) {
+
+    /* Row 1 */
+    #header {
+        background-color: white;
+    }
+
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-brand img {
+        margin-left: 150px;
+        width: 120px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-nav {
+        font-size: large;
+    }
+
+    .nav-item {
+        margin-left: 20px;
+
+    }
+
+    .nav-link {
+        color: #000;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 3;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .nav-link.active::before {
+        width: 100%;
+    }
+
+    .nav-link.active {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active) {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active)::before {
+        width: 100%;
+    }
+
+    .nav-link:hover {
+        color: #EEB221;
+    }
+
+    .nav-link:hover::before {
+        width: 100%;
+
+    }
+
+    .dropdown-menu {
+        padding-top: 10px;
+    }
+
+    .dropdown-item {
+        padding-top: 10px;
+        color: black;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .dropdown-item::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 18;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .dropdown-item:hover {
+        color: #EEB221;
+    }
+
+    .dropdown-item:hover::before {
+        width: 80%;
+
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        margin-right: 100px;
+        margin-top: -50px;
+        margin-left: 20px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    /* Row 2 */
+    #Row2 {
+        margin-top: 70px;
+    }
+
+    #Row2C1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(assets/Cutomization1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 425px;
+        height: 420px;
+    }
+
+    #Row2C2 {
+        text-align: center;
+        background-color: #F0F0F0;
+        color: black;
+        padding-top: 80px;
+        padding-left: 20px;
+        padding-right: 40px;
+        padding-bottom: 80px;
+    }
+
+    #Row2C2 h1 {
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+    #Row2C2 p {
+        padding-top: 15px;
+        font-size: 14px;
+
+    }
+
+    #btn {
+        margin-top: 30px;
+        background-color: #EEB221;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: large;
+        width: 250px;
+        height: 55px;
+    }
+
+    #btn:hover {
+        border: 2px solid #EEB221;
+        background-color: #F0F0F0;
+
+    }
+
+     /* Row3 */
+     #Row3 {
+        padding-top: 60px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #Row3 img {
+        width: 250px;
+        height: 60px;
+    }
+
+    #Row3 h1 {
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    #Row3 p{
+        font: size 25px;
+        padding-left: 25px;
+        padding-right: 10px;
+    }
+
+    #star i{
+        font-size: 25px;
+        color: #EEB221;
+    }
+
+    #star{
+        font-size: 35px;
+    }
+
+    #ckeckicon{
+        font-size: large;
+    }
+
+    #ckeckicon i{
+        font-size: 20px;
+        color: #EEB221;
+        font-weight: bold;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+     /* Row 4 */
+     #Row4 {
+        background-color: #10173D;
+
+    }
+
+    #Row4C1 {
+        padding-top: 113px;
+        padding-left: 30px;
+        padding-bottom: 62px;
+    }
+
+    #Row4C1 h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        color: white;
+    }
+
+    #Row4C1 p {
+        font-size: large;
+        color: white;
+    }
+
+    #btn2 {
+        margin-top: 30px;
+        background-color: #EEB221;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: large;
+        width: 250px;
+        height: 55px;
+    }
+
+    #btn2:hover {
+        border: 2px solid #EEB221;
+        background-color: #10173D;
+        color: #EEB221;
+
+    }
+
+    #Row4C2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(assets/Cutomization3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 650px;
+        height: 650px;
+    }
+
+    #rightlogo i {
+        padding-bottom: 10px;
+        font-size: 20px;;
+        width: 30px;
+        color: #EEB221;
+    }
+
+    #rightlogo p{
+        text-align: start;
+        font-size: large;
+        color: white;
+    }
+
+    #footer {
+        text-align: center;
+        padding-top: 50px;
+      }
+    
+      #footer img {
+        width: 180px;
+        height: 80px;
+        padding-bottom: 10px;
+      }
+}

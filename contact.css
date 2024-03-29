@@ -1,0 +1,384 @@
+@media (min-width:1024px) and (max-width:1560px) {
+/* Row 1 */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  .navbar-brand img {
+    margin-left: 250px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .navbar-nav {
+    padding-left: 120px;
+    font-size: large;
+  }
+
+  .nav-item {
+    margin-left: 40px;
+
+  }
+
+  .nav-link {
+    color: #000;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: inline-block;
+  }
+
+  
+
+  .nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 3;
+    width: 0;
+    height: 3px;
+    background-color: #EEB221;
+    /* Use background-color instead of color */
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-link.active::before {
+    width: 100%;
+  }
+
+  nav-link active{
+    color: #EEB221;
+  }
+  
+  .nav-link.active::before {
+    color: #EEB221;
+  }
+  
+ .nav-link:hover:not(.active) {
+    color: #EEB221;
+  }
+  
+  .nav-link:hover:not(.active)::before {
+    width: 100%;
+  } 
+
+  .nav-link:hover {
+    color: #EEB221;
+  }
+
+  .nav-link:hover::before {
+    width: 100%;
+
+  }
+
+  .dropdown-menu {
+    padding-top: 10px;
+  }
+
+  .dropdown-item {
+    padding-top: 10px;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: inline-block;
+  }
+
+  .dropdown-item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 18;
+    width: 0;
+    height: 3px;
+    background-color: #EEB221;
+    /* Use background-color instead of color */
+    transition: width 0.3s ease-in-out;
+  }
+
+  .dropdown-item:hover {
+    color: #EEB221;
+  }
+
+  .dropdown-item:hover::before {
+    width: 80%;
+
+  }
+
+
+    #Row {
+        padding-bottom: 40px;
+        text-align: start;
+        margin-top: 80px;
+        background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(assets/Contact.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    #Row h1 {
+        padding-top: 40px;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+}
+
+@media (min-width:430px) and (max-width:769px) {
+
+    /* Row 1 */
+    #header {
+        background-color: white;
+    }
+
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-brand img {
+        margin-left: 80px;
+        width: 120px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navbar-nav {
+        padding-left: 120px;
+        font-size: large;
+    }
+
+    .nav-item {
+        margin-left: 500px;
+
+    }
+
+    .nav-link {
+        color: #000;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 3;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .nav-link.active::before {
+        width: 100%;
+    }
+
+    .nav-link.active {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active) {
+        color: #EEB221;
+    }
+
+    .nav-link:hover:not(.active)::before {
+        width: 100%;
+    }
+
+    .nav-link:hover {
+        color: #EEB221;
+    }
+
+    .nav-link:hover::before {
+        width: 100%;
+
+    }
+
+    .dropdown-menu {
+        padding-top: 10px;
+    }
+
+    .dropdown-item {
+        padding-top: 10px;
+        color: black;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s;
+        display: inline-block;
+    }
+
+    .dropdown-item::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 18;
+        width: 0;
+        height: 3px;
+        background-color: #EEB221;
+        /* Use background-color instead of color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    .dropdown-item:hover {
+        color: #EEB221;
+    }
+
+    .dropdown-item:hover::before {
+        width: 80%;
+
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        margin-right: 100px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    #Row {
+        padding-bottom: 50px;
+        text-align: start;
+        margin-top: 80px;
+        background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(assets/Contact.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    #Row h1 {
+        padding-top: 40px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media(min-width:320px) and (max-width:426px) {
+
+    /* Row 1 */
+    #header{
+      background-color: white;
+    }
+    .navbar{
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+    .navbar-brand img {
+      margin-left: 150px;
+      width: 120px;
+      height: 40px;
+      background-color:rgba(255, 255, 255, 0.9) ;
+    }
+  
+    .navbar-nav {
+      font-size: large;
+    }
+  
+    .nav-item {
+      margin-left: 20px;
+  
+    }
+  
+    .nav-link {
+      color: #000;
+      position: relative;
+      text-decoration: none;
+      transition: color 0.3s;
+      display: inline-block;
+    }
+  
+    .nav-link::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 3;
+      width: 0;
+      height: 3px;
+      background-color: #EEB221;
+      /* Use background-color instead of color */
+      transition: width 0.3s ease-in-out;
+    }
+  
+    .nav-link.active::before {
+      width: 100%;
+    }
+    
+    .nav-link.active {
+      color: #EEB221;
+    }
+    
+    .nav-link:hover:not(.active) {
+      color: #EEB221;
+    }
+    
+    .nav-link:hover:not(.active)::before {
+      width: 100%;
+    }
+  
+    .nav-link:hover {
+      color: #EEB221;
+    }
+  
+    .nav-link:hover::before {
+      width: 100%;
+  
+    }
+  
+    .dropdown-menu {
+      padding-top: 10px;
+    }
+  
+    .dropdown-item {
+      padding-top: 10px;
+      color: black;
+      position: relative;
+      text-decoration: none;
+      transition: color 0.3s;
+      display: inline-block;
+    }
+  
+    .dropdown-item::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 18;
+      width: 0;
+      height: 3px;
+      background-color: #EEB221;
+      /* Use background-color instead of color */
+      transition: width 0.3s ease-in-out;
+    }
+  
+    .dropdown-item:hover {
+      color: #EEB221;
+    }
+  
+    .dropdown-item:hover::before {
+      width: 80%;
+  
+    }
+  
+    .navbar-toggler{
+      background-color: white;
+      margin-right: 100px;
+      margin-top: -50px;
+      margin-left: 20px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    #Row {
+        padding-bottom: 50px;
+        text-align: start;
+        margin-top: 80px;
+        background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(assets/Contact.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    #Row h1 {
+        padding-top: 40px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}  
